@@ -255,7 +255,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "O : \u2190\nP : \u2192"
+  m_Text: 'O : Prev
+
+    P : Next'
 --- !u!222 &515848660
 CanvasRenderer:
   m_ObjectHideFlags: 0

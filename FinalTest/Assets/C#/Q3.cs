@@ -23,6 +23,7 @@ public class Q3 : MonoBehaviour
             }
         }
 
+        /*
         for (int i = 0; i < 5; i++)
         {
             for (int j = 0; j < 2*i +1 ; j++)
@@ -31,6 +32,19 @@ public class Q3 : MonoBehaviour
                 Instantiate(bulid, new Vector3(-7-i, j, 0), Quaternion.identity);
                 Instantiate(bulid, new Vector3(i-15, -j, 0), Quaternion.identity);
                 Instantiate(bulid, new Vector3(-7-i, -j, 0), Quaternion.identity);
+
+                yield return WAS;
+
+            }
+        }
+        */
+
+        for (int i = 0; i < 5; i++)
+        {
+            for (int j = 0; j < 4*i +1 ; j++)
+            {
+                Instantiate(bulid, new Vector3(i-15, j-2*i, 0), Quaternion.identity);
+                Instantiate(bulid, new Vector3(-7-i, j-2*i, 0), Quaternion.identity);
 
                 yield return WAS;
 

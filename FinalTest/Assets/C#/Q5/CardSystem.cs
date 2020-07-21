@@ -2,6 +2,7 @@
 using System.Linq;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 
 
@@ -10,7 +11,7 @@ public class CardSystem : MonoBehaviour
 {
     public List<GameObject> cards = new List<GameObject>();
     private string[] type = { "Spades", "Diamond", "Heart", "Club" };
-
+    public Button Odd_B;
 
     private void GetAllCard()
     {
@@ -82,7 +83,7 @@ public class CardSystem : MonoBehaviour
             child.position = new Vector3((x - 6) * 1.3f, 4 - y * 2, 0);
             yield return null;
         }
-
+        Odd_B.interactable = true;
     }
 
 

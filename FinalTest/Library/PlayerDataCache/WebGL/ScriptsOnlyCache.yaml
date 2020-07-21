@@ -663,7 +663,7 @@ ScriptsOnlyBuild:
     className: Physics2DRaycaster
   - hash:
       serializedVersion: 2
-      Hash: cf838248ab507e53792340f99ae0dc65
+      Hash: 682b17e8b0d26e80c46b6edc1d3822be
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: CardSystem
